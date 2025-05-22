@@ -4,90 +4,113 @@ from itertools import product
 from scipy.stats import pearsonr
 import numpy as np
 import random
+from joblib import Parallel, delayed
 
 class Calibrator:
-    def __init__(self, paramsChoice, rasterData, amountCombinations = 3):
-        "Rasterdata needs the layers Precipitation, Radiation, Temperature, NDVI and observedRunoff"
-        self.paramsChoice = paramsChoice
-        self.rasterData = rasterData
-        self.amountCombinations = amountCombinations
+    def __init__(self, initParams, rasterData, areaSize, numCombi = 3, numIter = 3):
+        self.params = initParams
+        self.areaSize = areaSize
+        self.rasterData = self.calculate_catchment_mean(rasterData)
+        self.numCombi = numCombi
+        self.numIter = numIter        
 
-    def calibration(self):
-        amount_combinations = 3
-        all_combinations = list(product(*self.paramsChoice.values()))
-        random_combinations = random.sample(all_combinations, amount_combinations)
-        
-        best_r = -np.inf
-        best_params = None
-        
-        for params in random_combinations:
-            wm = WaterModel(params=params, data=self.rasterData)
-            results = wm.run_simulation()
-            runoff = results["runoff"].values.flatten()
-            observed = self.rasterData.values.flatten()
-
-            mask = ~np.isnan(runoff) & ~np.isnan(observed)
-            if np.sum(mask) < 2:
-                continue
-            
-            r, _ = pearsonr(runoff[mask], observed[mask])
-            
-            if r > best_r:
-                best_r = r
-                best_params = params
-
-        return best_r, best_params 
+    def calculate_catchment_mean(self, data):
+        dataMean = xr.Dataset()
+        dataMean['temperature'] = data["temperature"].mean(dim=("x", "y"))
+        dataMean['precipitation'] = data["precipitation"].mean(dim=("x", "y"))
+        dataMean['radiation'] = data["radiation"].mean(dim=("x", "y"))
+        dataMean['ndvi'] = data["ndvi"].mean(dim=("x", "y"))
+        dataMean['observedRunoff'] = self.normalize_observedRunoff(data["observedRunoff"].sum(dim=("x", "y")), self.areaSize)
+        return dataMean
     
-    def calibrate_pixel(self, observed, prec, rad, temp, ndvi, paramsChoice):
-        all_combinations = list(product(*paramsChoice.values()))
-        random_combinations = random.sample(all_combinations, self.amountCombinations)
-        
-        best_r = -np.inf
-        best_params = [np.nan, np.nan, np.nan, np.nan, np.nan, (np.nan, np.nan)]
-        
-        for params in random_combinations:
-            wm = WaterModel(params=params, data=self.rasterData)
-            runoff, _, _, _ = wm.time_evolution(temp, rad, prec, ndvi, params)
-            mask = ~np.isnan(runoff) & ~np.isnan(observed)
+    def normalize_observedRunoff(self, observedRunoff, areaSize):
+        return observedRunoff*86400/(areaSize*1000)
+
+    def create_paramsChoice(self, params, i):
+        paramsChoice = {key: [
+            value-value/(2**i),
+            value, 
+            value+value/(2**i)]
+                for key, value in params.items()}
+        return paramsChoice
+
+    def split_data(self, data, splitPerc):
+        leng = data.sizes["time"]
+        maxYear = leng/365
+        sample = np.random.randint(0, maxYear, int(maxYear*splitPerc))
+        mask = np.zeros(leng, dtype=bool)
+        for s in sample:
+            mask[s*365:(s+1)*365] = True
+        train = data.isel(time=np.where(~mask)[0])
+        test = data.isel(time=np.where(mask)[0])
+
+        return train, test
+
+    def calibrate_pixel(self, paramsChoice, valTrain):
+        allCombinations = list(product(*paramsChoice.values()))
+        randomCombinationsSample = random.sample(allCombinations, self.numCombi)
+        param_dicts = [
+            dict(zip(paramsChoice.keys(), combo)) for combo in randomCombinationsSample
+        ]
+        train, val = self.split_data(valTrain, 0.9)
+
+        observed = train["observedRunoff"].values
+        nan_mask_obs = ~np.isnan(observed)        
+
+        def evaluate(params):
+            wm = WaterModel(params=params, data=train)
+            runoff = wm.run_simulation_whole_catchment()
+            mask = nan_mask_obs & ~np.isnan(runoff)
+
             if np.sum(mask) < 2:
-                continue 
-            
+                return params, -np.inf
+
             r, _ = pearsonr(runoff[mask], observed[mask])
-            
-            if r > best_r:
-                best_r = r
-                best_params = params
-        c_s, alpha, gamma, beta, c_m, (et1, et2) = best_params
-        return float(c_s), float(alpha), float(gamma), float(beta), float(c_m), float(et1), float(et2)
+            return params, r
+        
+        results = Parallel(n_jobs=-1)(delayed(evaluate)(params) for params in param_dicts)
+        best_params, best_r = max(results, key=lambda x: x[1])
 
+        # Calculate R2 for Validation Timeseries
+        wm = WaterModel(params=best_params, data=val)
+        runoff = wm.run_simulation_whole_catchment()
+        observed = val["observedRunoff"].values
 
-    def calculate_best_params(self):
-        param_names = list(self.paramsChoice.keys())
-        c_s, alpha, gamma, beta, c_m, et1, et2 = xr.apply_ufunc(
-                self.calibrate_pixel,
-                self.rasterData["observedRunoff"],
-                self.rasterData["precipitation"],
-                self.rasterData["radiation"],
-                self.rasterData["temperature"],
-                self.rasterData["ndvi"],
-                kwargs={"paramsChoice": self.paramsChoice},
-                input_core_dims=[["time"]]*5,
-                output_core_dims=[[], [], [], [], [], [], []],
-                vectorize=True,
-                dask="allowed",  # falls du mit Dask arbeitest
-                output_dtypes=[float]*7,
-                output_sizes={"param": len(param_names)}
-        )
+        mask = ~np.isnan(observed)  & ~np.isnan(runoff)
+        if np.sum(mask) < 2:
+            r_val = np.nan
 
-        res = xr.Dataset({
-            'c_s': c_s,
-            'alpha': alpha,
-            'gamma': gamma,
-            'beta': beta,
-            'c_m': c_m,
-            'et1': et1,
-            'et2': et2
-        })
+        r_val, _ = pearsonr(runoff[mask], observed[mask])
+        r_train = best_r
+        return best_params, r_train, r_val
+    
+    def calculate_params_whole_catchment(self):
+        valTrain, test = self.split_data(self.rasterData, 0.9)
+        lParams = []
+        lRVal = []
+        lRTest = []
+        lRTrain = []
+        for i in range(1,self.numIter+1):
+            paramsChoice = self.create_paramsChoice(self.params, i)
+            newParams, r_train, r_val = self.calibrate_pixel(paramsChoice, valTrain)
+            self.params = newParams
+            lParams.append(newParams)
+            lRVal.append(r_val)
+    
+            idxBest = np.argmax(lRVal)
+            wm = WaterModel(params=lParams[i-1], data=test)
+            runoff = wm.run_simulation_whole_catchment()
+            observed = test["observedRunoff"].values
+            mask = ~np.isnan(observed)  & ~np.isnan(runoff)
 
-        return res
+            if np.sum(mask) < 2:
+                rTest = np.nan
+
+            rTest, _ = pearsonr(runoff[mask], observed[mask])
+
+            lRTest.append(rTest)
+            lRTrain.append(r_train)
+       
+        newParams["R2"] = rTest
+        return newParams
     

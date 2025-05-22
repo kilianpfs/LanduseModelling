@@ -694,3 +694,13 @@ data/catchment_timeseries/ZWICKAU-POELBITZ/ndvi.nc
 data/catchment_timeseries/ZWICKAU-POELBITZ/precipitation.nc
 data/catchment_timeseries/ZWICKAU-POELBITZ/radiation.nc
 data/catchment_timeseries/ZWICKAU-POELBITZ/temperature.nc
+backup/2025-05-22 scripts/.DS_Store
+backup/2025-05-22 scripts/.gitignore
+backup/2025-05-22 scripts/booster_main.ipynb
+backup/2025-05-22 scripts/calibration_main.ipynb
+backup/2025-05-22 scripts/calibratorCLASS.py
+backup/2025-05-22 scripts/catchment_main.ipynb
+backup/2025-05-22 scripts/catchment_parameters.csv
+backup/2025-05-22 scripts/main.ipynb
+backup/2025-05-22 scripts/README.md
+backup/2025-05-22 scripts/watermodelCLASS.py
