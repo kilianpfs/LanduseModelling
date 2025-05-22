@@ -84,3 +84,613 @@ data/total_precipitation/tp.daily.calc.era5.0d50_CentralEurope.2020.nc
 data/total_precipitation/tp.daily.calc.era5.0d50_CentralEurope.2021.nc
 data/total_precipitation/tp.daily.calc.era5.0d50_CentralEurope.2022.nc
 data/total_precipitation/tp.daily.calc.era5.0d50_CentralEurope.2023.nc
+data/catchment_timeseries.zip
+data/catchment_timeseries/.DS_Store
+data/catchment_timeseries/ACHSTETTEN/ndvi.nc
+data/catchment_timeseries/ACHSTETTEN/precipitation.nc
+data/catchment_timeseries/ACHSTETTEN/radiation.nc
+data/catchment_timeseries/ACHSTETTEN/temperature.nc
+data/catchment_timeseries/ALSDORF-OBERECKEN/ndvi.nc
+data/catchment_timeseries/ALSDORF-OBERECKEN/precipitation.nc
+data/catchment_timeseries/ALSDORF-OBERECKEN/radiation.nc
+data/catchment_timeseries/ALSDORF-OBERECKEN/temperature.nc
+data/catchment_timeseries/ALTENBAMBERG/ndvi.nc
+data/catchment_timeseries/ALTENBAMBERG/precipitation.nc
+data/catchment_timeseries/ALTENBAMBERG/radiation.nc
+data/catchment_timeseries/ALTENBAMBERG/temperature.nc
+data/catchment_timeseries/ALTENSTEIG/ndvi.nc
+data/catchment_timeseries/ALTENSTEIG/precipitation.nc
+data/catchment_timeseries/ALTENSTEIG/radiation.nc
+data/catchment_timeseries/ALTENSTEIG/temperature.nc
+data/catchment_timeseries/APPOLDING/ndvi.nc
+data/catchment_timeseries/APPOLDING/precipitation.nc
+data/catchment_timeseries/APPOLDING/radiation.nc
+data/catchment_timeseries/APPOLDING/temperature.nc
+data/catchment_timeseries/ARENSHAUSEN/ndvi.nc
+data/catchment_timeseries/ARENSHAUSEN/precipitation.nc
+data/catchment_timeseries/ARENSHAUSEN/radiation.nc
+data/catchment_timeseries/ARENSHAUSEN/temperature.nc
+data/catchment_timeseries/AUE 1/ndvi.nc
+data/catchment_timeseries/AUE 1/precipitation.nc
+data/catchment_timeseries/AUE 1/radiation.nc
+data/catchment_timeseries/AUE 1/temperature.nc
+data/catchment_timeseries/BAD DUEBEN/ndvi.nc
+data/catchment_timeseries/BAD DUEBEN/precipitation.nc
+data/catchment_timeseries/BAD DUEBEN/radiation.nc
+data/catchment_timeseries/BAD DUEBEN/temperature.nc
+data/catchment_timeseries/BAD IMNAU/ndvi.nc
+data/catchment_timeseries/BAD IMNAU/precipitation.nc
+data/catchment_timeseries/BAD IMNAU/radiation.nc
+data/catchment_timeseries/BAD IMNAU/temperature.nc
+data/catchment_timeseries/BAD LIEBENWERDA/ndvi.nc
+data/catchment_timeseries/BAD LIEBENWERDA/precipitation.nc
+data/catchment_timeseries/BAD LIEBENWERDA/radiation.nc
+data/catchment_timeseries/BAD LIEBENWERDA/temperature.nc
+data/catchment_timeseries/BAD MERGENTHEIM/ndvi.nc
+data/catchment_timeseries/BAD MERGENTHEIM/precipitation.nc
+data/catchment_timeseries/BAD MERGENTHEIM/radiation.nc
+data/catchment_timeseries/BAD MERGENTHEIM/temperature.nc
+data/catchment_timeseries/BAD ROTENFELS/ndvi.nc
+data/catchment_timeseries/BAD ROTENFELS/precipitation.nc
+data/catchment_timeseries/BAD ROTENFELS/radiation.nc
+data/catchment_timeseries/BAD ROTENFELS/temperature.nc
+data/catchment_timeseries/BAD SUELZE 2/ndvi.nc
+data/catchment_timeseries/BAD SUELZE 2/precipitation.nc
+data/catchment_timeseries/BAD SUELZE 2/radiation.nc
+data/catchment_timeseries/BAD SUELZE 2/temperature.nc
+data/catchment_timeseries/BAD TOELZ/ndvi.nc
+data/catchment_timeseries/BAD TOELZ/precipitation.nc
+data/catchment_timeseries/BAD TOELZ/radiation.nc
+data/catchment_timeseries/BAD TOELZ/temperature.nc
+data/catchment_timeseries/BAD TOELZ KRAFTWERK/ndvi.nc
+data/catchment_timeseries/BAD TOELZ KRAFTWERK/precipitation.nc
+data/catchment_timeseries/BAD TOELZ KRAFTWERK/radiation.nc
+data/catchment_timeseries/BAD TOELZ KRAFTWERK/temperature.nc
+data/catchment_timeseries/BENTFELD/ndvi.nc
+data/catchment_timeseries/BENTFELD/precipitation.nc
+data/catchment_timeseries/BENTFELD/radiation.nc
+data/catchment_timeseries/BENTFELD/temperature.nc
+data/catchment_timeseries/BERG/ndvi.nc
+data/catchment_timeseries/BERG/precipitation.nc
+data/catchment_timeseries/BERG/radiation.nc
+data/catchment_timeseries/BERG/temperature.nc
+data/catchment_timeseries/BERGHAUSEN/ndvi.nc
+data/catchment_timeseries/BERGHAUSEN/precipitation.nc
+data/catchment_timeseries/BERGHAUSEN/radiation.nc
+data/catchment_timeseries/BERGHAUSEN/temperature.nc
+data/catchment_timeseries/BERLIN MUEHLENDAMM OP/ndvi.nc
+data/catchment_timeseries/BERLIN MUEHLENDAMM OP/precipitation.nc
+data/catchment_timeseries/BERLIN MUEHLENDAMM OP/radiation.nc
+data/catchment_timeseries/BERLIN MUEHLENDAMM OP/temperature.nc
+data/catchment_timeseries/BEUTELSAU/ndvi.nc
+data/catchment_timeseries/BEUTELSAU/precipitation.nc
+data/catchment_timeseries/BEUTELSAU/radiation.nc
+data/catchment_timeseries/BEUTELSAU/temperature.nc
+data/catchment_timeseries/BIENENBUETTEL/ndvi.nc
+data/catchment_timeseries/BIENENBUETTEL/precipitation.nc
+data/catchment_timeseries/BIENENBUETTEL/radiation.nc
+data/catchment_timeseries/BIENENBUETTEL/temperature.nc
+data/catchment_timeseries/BODENWERDER/ndvi.nc
+data/catchment_timeseries/BODENWERDER/precipitation.nc
+data/catchment_timeseries/BODENWERDER/radiation.nc
+data/catchment_timeseries/BODENWERDER/temperature.nc
+data/catchment_timeseries/BOEHLEN 1/ndvi.nc
+data/catchment_timeseries/BOEHLEN 1/precipitation.nc
+data/catchment_timeseries/BOEHLEN 1/radiation.nc
+data/catchment_timeseries/BOEHLEN 1/temperature.nc
+data/catchment_timeseries/BOERZOW/ndvi.nc
+data/catchment_timeseries/BOERZOW/precipitation.nc
+data/catchment_timeseries/BOERZOW/radiation.nc
+data/catchment_timeseries/BOERZOW/temperature.nc
+data/catchment_timeseries/BOOS/ndvi.nc
+data/catchment_timeseries/BOOS/precipitation.nc
+data/catchment_timeseries/BOOS/radiation.nc
+data/catchment_timeseries/BOOS/temperature.nc
+data/catchment_timeseries/BOXBERG/ndvi.nc
+data/catchment_timeseries/BOXBERG/precipitation.nc
+data/catchment_timeseries/BOXBERG/radiation.nc
+data/catchment_timeseries/BOXBERG/temperature.nc
+data/catchment_timeseries/BRANDENBURG-WILHELMSDORF/ndvi.nc
+data/catchment_timeseries/BRANDENBURG-WILHELMSDORF/precipitation.nc
+data/catchment_timeseries/BRANDENBURG-WILHELMSDORF/radiation.nc
+data/catchment_timeseries/BRANDENBURG-WILHELMSDORF/temperature.nc
+data/catchment_timeseries/CALBE-GRIZEHNE/ndvi.nc
+data/catchment_timeseries/CALBE-GRIZEHNE/precipitation.nc
+data/catchment_timeseries/CALBE-GRIZEHNE/radiation.nc
+data/catchment_timeseries/CALBE-GRIZEHNE/temperature.nc
+data/catchment_timeseries/COLNRADE OP/ndvi.nc
+data/catchment_timeseries/COLNRADE OP/precipitation.nc
+data/catchment_timeseries/COLNRADE OP/radiation.nc
+data/catchment_timeseries/COLNRADE OP/temperature.nc
+data/catchment_timeseries/DALUM/ndvi.nc
+data/catchment_timeseries/DALUM/precipitation.nc
+data/catchment_timeseries/DALUM/radiation.nc
+data/catchment_timeseries/DALUM/temperature.nc
+data/catchment_timeseries/DOHNA/ndvi.nc
+data/catchment_timeseries/DOHNA/precipitation.nc
+data/catchment_timeseries/DOHNA/radiation.nc
+data/catchment_timeseries/DOHNA/temperature.nc
+data/catchment_timeseries/EBERHARDSREUTH/ndvi.nc
+data/catchment_timeseries/EBERHARDSREUTH/precipitation.nc
+data/catchment_timeseries/EBERHARDSREUTH/radiation.nc
+data/catchment_timeseries/EBERHARDSREUTH/temperature.nc
+data/catchment_timeseries/EBERSTADT/ndvi.nc
+data/catchment_timeseries/EBERSTADT/precipitation.nc
+data/catchment_timeseries/EBERSTADT/radiation.nc
+data/catchment_timeseries/EBERSTADT/temperature.nc
+data/catchment_timeseries/EBNET/ndvi.nc
+data/catchment_timeseries/EBNET/precipitation.nc
+data/catchment_timeseries/EBNET/radiation.nc
+data/catchment_timeseries/EBNET/temperature.nc
+data/catchment_timeseries/EINEN/ndvi.nc
+data/catchment_timeseries/EINEN/precipitation.nc
+data/catchment_timeseries/EINEN/radiation.nc
+data/catchment_timeseries/EINEN/temperature.nc
+data/catchment_timeseries/EITORF/ndvi.nc
+data/catchment_timeseries/EITORF/precipitation.nc
+data/catchment_timeseries/EITORF/radiation.nc
+data/catchment_timeseries/EITORF/temperature.nc
+data/catchment_timeseries/ELBERSDORF/ndvi.nc
+data/catchment_timeseries/ELBERSDORF/precipitation.nc
+data/catchment_timeseries/ELBERSDORF/radiation.nc
+data/catchment_timeseries/ELBERSDORF/temperature.nc
+data/catchment_timeseries/ELLINGSHAUSEN/ndvi.nc
+data/catchment_timeseries/ELLINGSHAUSEN/precipitation.nc
+data/catchment_timeseries/ELLINGSHAUSEN/radiation.nc
+data/catchment_timeseries/ELLINGSHAUSEN/temperature.nc
+data/catchment_timeseries/EPPSTEIN/ndvi.nc
+data/catchment_timeseries/EPPSTEIN/precipitation.nc
+data/catchment_timeseries/EPPSTEIN/radiation.nc
+data/catchment_timeseries/EPPSTEIN/temperature.nc
+data/catchment_timeseries/FRANKFURT OSTHAFEN/ndvi.nc
+data/catchment_timeseries/FRANKFURT OSTHAFEN/precipitation.nc
+data/catchment_timeseries/FRANKFURT OSTHAFEN/radiation.nc
+data/catchment_timeseries/FRANKFURT OSTHAFEN/temperature.nc
+data/catchment_timeseries/FRIDINGEN/ndvi.nc
+data/catchment_timeseries/FRIDINGEN/precipitation.nc
+data/catchment_timeseries/FRIDINGEN/radiation.nc
+data/catchment_timeseries/FRIDINGEN/temperature.nc
+data/catchment_timeseries/FRIEDRICHSTHAL/ndvi.nc
+data/catchment_timeseries/FRIEDRICHSTHAL/precipitation.nc
+data/catchment_timeseries/FRIEDRICHSTHAL/radiation.nc
+data/catchment_timeseries/FRIEDRICHSTHAL/temperature.nc
+data/catchment_timeseries/GAILDORF/ndvi.nc
+data/catchment_timeseries/GAILDORF/precipitation.nc
+data/catchment_timeseries/GAILDORF/radiation.nc
+data/catchment_timeseries/GAILDORF/temperature.nc
+data/catchment_timeseries/GAISSACH/ndvi.nc
+data/catchment_timeseries/GAISSACH/precipitation.nc
+data/catchment_timeseries/GAISSACH/radiation.nc
+data/catchment_timeseries/GAISSACH/temperature.nc
+data/catchment_timeseries/GARMISCH UDP/ndvi.nc
+data/catchment_timeseries/GARMISCH UDP/precipitation.nc
+data/catchment_timeseries/GARMISCH UDP/radiation.nc
+data/catchment_timeseries/GARMISCH UDP/temperature.nc
+data/catchment_timeseries/GEISLINGEN FILS/ndvi.nc
+data/catchment_timeseries/GEISLINGEN FILS/precipitation.nc
+data/catchment_timeseries/GEISLINGEN FILS/radiation.nc
+data/catchment_timeseries/GEISLINGEN FILS/temperature.nc
+data/catchment_timeseries/GERBERTSHAUS/ndvi.nc
+data/catchment_timeseries/GERBERTSHAUS/precipitation.nc
+data/catchment_timeseries/GERBERTSHAUS/radiation.nc
+data/catchment_timeseries/GERBERTSHAUS/temperature.nc
+data/catchment_timeseries/GIESSEN/ndvi.nc
+data/catchment_timeseries/GIESSEN/precipitation.nc
+data/catchment_timeseries/GIESSEN/radiation.nc
+data/catchment_timeseries/GIESSEN/temperature.nc
+data/catchment_timeseries/GOCH/ndvi.nc
+data/catchment_timeseries/GOCH/precipitation.nc
+data/catchment_timeseries/GOCH/radiation.nc
+data/catchment_timeseries/GOCH/temperature.nc
+data/catchment_timeseries/GOERITZHAIN/ndvi.nc
+data/catchment_timeseries/GOERITZHAIN/precipitation.nc
+data/catchment_timeseries/GOERITZHAIN/radiation.nc
+data/catchment_timeseries/GOERITZHAIN/temperature.nc
+data/catchment_timeseries/GOERLITZ/ndvi.nc
+data/catchment_timeseries/GOERLITZ/precipitation.nc
+data/catchment_timeseries/GOERLITZ/radiation.nc
+data/catchment_timeseries/GOERLITZ/temperature.nc
+data/catchment_timeseries/GREBENAU/ndvi.nc
+data/catchment_timeseries/GREBENAU/precipitation.nc
+data/catchment_timeseries/GREBENAU/radiation.nc
+data/catchment_timeseries/GREBENAU/temperature.nc
+data/catchment_timeseries/GROSSDITTMANNSDORF/ndvi.nc
+data/catchment_timeseries/GROSSDITTMANNSDORF/precipitation.nc
+data/catchment_timeseries/GROSSDITTMANNSDORF/radiation.nc
+data/catchment_timeseries/GROSSDITTMANNSDORF/temperature.nc
+data/catchment_timeseries/GROSSE TRAENKE WEHR UP/ndvi.nc
+data/catchment_timeseries/GROSSE TRAENKE WEHR UP/precipitation.nc
+data/catchment_timeseries/GROSSE TRAENKE WEHR UP/radiation.nc
+data/catchment_timeseries/GROSSE TRAENKE WEHR UP/temperature.nc
+data/catchment_timeseries/GUBEN 2/ndvi.nc
+data/catchment_timeseries/GUBEN 2/precipitation.nc
+data/catchment_timeseries/GUBEN 2/radiation.nc
+data/catchment_timeseries/GUBEN 2/temperature.nc
+data/catchment_timeseries/GUESTROW NEBEL/ndvi.nc
+data/catchment_timeseries/GUESTROW NEBEL/precipitation.nc
+data/catchment_timeseries/GUESTROW NEBEL/radiation.nc
+data/catchment_timeseries/GUESTROW NEBEL/temperature.nc
+data/catchment_timeseries/HALLE TROTHA UP/ndvi.nc
+data/catchment_timeseries/HALLE TROTHA UP/precipitation.nc
+data/catchment_timeseries/HALLE TROTHA UP/radiation.nc
+data/catchment_timeseries/HALLE TROTHA UP/temperature.nc
+data/catchment_timeseries/HALTERN/ndvi.nc
+data/catchment_timeseries/HALTERN/precipitation.nc
+data/catchment_timeseries/HALTERN/radiation.nc
+data/catchment_timeseries/HALTERN/temperature.nc
+data/catchment_timeseries/HANN.-MUENDEN/ndvi.nc
+data/catchment_timeseries/HANN.-MUENDEN/precipitation.nc
+data/catchment_timeseries/HANN.-MUENDEN/radiation.nc
+data/catchment_timeseries/HANN.-MUENDEN/temperature.nc
+data/catchment_timeseries/HARBURG/ndvi.nc
+data/catchment_timeseries/HARBURG/precipitation.nc
+data/catchment_timeseries/HARBURG/radiation.nc
+data/catchment_timeseries/HARBURG/temperature.nc
+data/catchment_timeseries/HATTINGEN/ndvi.nc
+data/catchment_timeseries/HATTINGEN/precipitation.nc
+data/catchment_timeseries/HATTINGEN/radiation.nc
+data/catchment_timeseries/HATTINGEN/temperature.nc
+data/catchment_timeseries/HAUSEN/ndvi.nc
+data/catchment_timeseries/HAUSEN/precipitation.nc
+data/catchment_timeseries/HAUSEN/radiation.nc
+data/catchment_timeseries/HAUSEN/temperature.nc
+data/catchment_timeseries/HELLWEGE SCHLEUSE/ndvi.nc
+data/catchment_timeseries/HELLWEGE SCHLEUSE/precipitation.nc
+data/catchment_timeseries/HELLWEGE SCHLEUSE/radiation.nc
+data/catchment_timeseries/HELLWEGE SCHLEUSE/temperature.nc
+data/catchment_timeseries/HERFORD/ndvi.nc
+data/catchment_timeseries/HERFORD/precipitation.nc
+data/catchment_timeseries/HERFORD/radiation.nc
+data/catchment_timeseries/HERFORD/temperature.nc
+data/catchment_timeseries/HERZLAKE/ndvi.nc
+data/catchment_timeseries/HERZLAKE/precipitation.nc
+data/catchment_timeseries/HERZLAKE/radiation.nc
+data/catchment_timeseries/HERZLAKE/temperature.nc
+data/catchment_timeseries/HOF/ndvi.nc
+data/catchment_timeseries/HOF/precipitation.nc
+data/catchment_timeseries/HOF/radiation.nc
+data/catchment_timeseries/HOF/temperature.nc
+data/catchment_timeseries/HOFKIRCHEN/ndvi.nc
+data/catchment_timeseries/HOFKIRCHEN/precipitation.nc
+data/catchment_timeseries/HOFKIRCHEN/radiation.nc
+data/catchment_timeseries/HOFKIRCHEN/temperature.nc
+data/catchment_timeseries/HOHENKAMMER/ndvi.nc
+data/catchment_timeseries/HOHENKAMMER/precipitation.nc
+data/catchment_timeseries/HOHENKAMMER/radiation.nc
+data/catchment_timeseries/HOHENKAMMER/temperature.nc
+data/catchment_timeseries/HUNDERSINGEN/ndvi.nc
+data/catchment_timeseries/HUNDERSINGEN/precipitation.nc
+data/catchment_timeseries/HUNDERSINGEN/radiation.nc
+data/catchment_timeseries/HUNDERSINGEN/temperature.nc
+data/catchment_timeseries/ILSANK/ndvi.nc
+data/catchment_timeseries/ILSANK/precipitation.nc
+data/catchment_timeseries/ILSANK/radiation.nc
+data/catchment_timeseries/ILSANK/temperature.nc
+data/catchment_timeseries/INKOFEN/ndvi.nc
+data/catchment_timeseries/INKOFEN/precipitation.nc
+data/catchment_timeseries/INKOFEN/radiation.nc
+data/catchment_timeseries/INKOFEN/temperature.nc
+data/catchment_timeseries/INTSCHEDE/ndvi.nc
+data/catchment_timeseries/INTSCHEDE/precipitation.nc
+data/catchment_timeseries/INTSCHEDE/radiation.nc
+data/catchment_timeseries/INTSCHEDE/temperature.nc
+data/catchment_timeseries/JEHRDEN/ndvi.nc
+data/catchment_timeseries/JEHRDEN/precipitation.nc
+data/catchment_timeseries/JEHRDEN/radiation.nc
+data/catchment_timeseries/JEHRDEN/temperature.nc
+data/catchment_timeseries/KALTENECK/ndvi.nc
+data/catchment_timeseries/KALTENECK/precipitation.nc
+data/catchment_timeseries/KALTENECK/radiation.nc
+data/catchment_timeseries/KALTENECK/temperature.nc
+data/catchment_timeseries/KAPPELRODECK/ndvi.nc
+data/catchment_timeseries/KAPPELRODECK/precipitation.nc
+data/catchment_timeseries/KAPPELRODECK/radiation.nc
+data/catchment_timeseries/KAPPELRODECK/temperature.nc
+data/catchment_timeseries/KEMMERN/ndvi.nc
+data/catchment_timeseries/KEMMERN/precipitation.nc
+data/catchment_timeseries/KEMMERN/radiation.nc
+data/catchment_timeseries/KEMMERN/temperature.nc
+data/catchment_timeseries/KETZIN/ndvi.nc
+data/catchment_timeseries/KETZIN/precipitation.nc
+data/catchment_timeseries/KETZIN/radiation.nc
+data/catchment_timeseries/KETZIN/temperature.nc
+data/catchment_timeseries/KICKENBACH/ndvi.nc
+data/catchment_timeseries/KICKENBACH/precipitation.nc
+data/catchment_timeseries/KICKENBACH/radiation.nc
+data/catchment_timeseries/KICKENBACH/temperature.nc
+data/catchment_timeseries/KIRCHEN-HAUSEN/ndvi.nc
+data/catchment_timeseries/KIRCHEN-HAUSEN/precipitation.nc
+data/catchment_timeseries/KIRCHEN-HAUSEN/radiation.nc
+data/catchment_timeseries/KIRCHEN-HAUSEN/temperature.nc
+data/catchment_timeseries/KLEIN BENGERSTORF/ndvi.nc
+data/catchment_timeseries/KLEIN BENGERSTORF/precipitation.nc
+data/catchment_timeseries/KLEIN BENGERSTORF/radiation.nc
+data/catchment_timeseries/KLEIN BENGERSTORF/temperature.nc
+data/catchment_timeseries/KLEMPENOW/ndvi.nc
+data/catchment_timeseries/KLEMPENOW/precipitation.nc
+data/catchment_timeseries/KLEMPENOW/radiation.nc
+data/catchment_timeseries/KLEMPENOW/temperature.nc
+data/catchment_timeseries/KOCHEL/ndvi.nc
+data/catchment_timeseries/KOCHEL/precipitation.nc
+data/catchment_timeseries/KOCHEL/radiation.nc
+data/catchment_timeseries/KOCHEL/temperature.nc
+data/catchment_timeseries/LAHR/ndvi.nc
+data/catchment_timeseries/LAHR/precipitation.nc
+data/catchment_timeseries/LAHR/radiation.nc
+data/catchment_timeseries/LAHR/temperature.nc
+data/catchment_timeseries/LAUBEN/ndvi.nc
+data/catchment_timeseries/LAUBEN/precipitation.nc
+data/catchment_timeseries/LAUBEN/radiation.nc
+data/catchment_timeseries/LAUBEN/temperature.nc
+data/catchment_timeseries/LAUCHA/ndvi.nc
+data/catchment_timeseries/LAUCHA/precipitation.nc
+data/catchment_timeseries/LAUCHA/radiation.nc
+data/catchment_timeseries/LAUCHA/temperature.nc
+data/catchment_timeseries/LAUCHERTHAL/ndvi.nc
+data/catchment_timeseries/LAUCHERTHAL/precipitation.nc
+data/catchment_timeseries/LAUCHERTHAL/radiation.nc
+data/catchment_timeseries/LAUCHERTHAL/temperature.nc
+data/catchment_timeseries/LEIPZIG-THEKLA/ndvi.nc
+data/catchment_timeseries/LEIPZIG-THEKLA/precipitation.nc
+data/catchment_timeseries/LEIPZIG-THEKLA/radiation.nc
+data/catchment_timeseries/LEIPZIG-THEKLA/temperature.nc
+data/catchment_timeseries/LENGGRIES/ndvi.nc
+data/catchment_timeseries/LENGGRIES/precipitation.nc
+data/catchment_timeseries/LENGGRIES/radiation.nc
+data/catchment_timeseries/LENGGRIES/temperature.nc
+data/catchment_timeseries/LEUN NEU/ndvi.nc
+data/catchment_timeseries/LEUN NEU/precipitation.nc
+data/catchment_timeseries/LEUN NEU/radiation.nc
+data/catchment_timeseries/LEUN NEU/temperature.nc
+data/catchment_timeseries/LORSCH/ndvi.nc
+data/catchment_timeseries/LORSCH/precipitation.nc
+data/catchment_timeseries/LORSCH/radiation.nc
+data/catchment_timeseries/LORSCH/temperature.nc
+data/catchment_timeseries/MENNINGEN/ndvi.nc
+data/catchment_timeseries/MENNINGEN/precipitation.nc
+data/catchment_timeseries/MENNINGEN/radiation.nc
+data/catchment_timeseries/MENNINGEN/temperature.nc
+data/catchment_timeseries/MESCHEDE/ndvi.nc
+data/catchment_timeseries/MESCHEDE/precipitation.nc
+data/catchment_timeseries/MESCHEDE/radiation.nc
+data/catchment_timeseries/MESCHEDE/temperature.nc
+data/catchment_timeseries/MITTENWALD/ndvi.nc
+data/catchment_timeseries/MITTENWALD/precipitation.nc
+data/catchment_timeseries/MITTENWALD/radiation.nc
+data/catchment_timeseries/MITTENWALD/temperature.nc
+data/catchment_timeseries/MOSBACH/ndvi.nc
+data/catchment_timeseries/MOSBACH/precipitation.nc
+data/catchment_timeseries/MOSBACH/radiation.nc
+data/catchment_timeseries/MOSBACH/temperature.nc
+data/catchment_timeseries/MURR/ndvi.nc
+data/catchment_timeseries/MURR/precipitation.nc
+data/catchment_timeseries/MURR/radiation.nc
+data/catchment_timeseries/MURR/temperature.nc
+data/catchment_timeseries/NALBACH/ndvi.nc
+data/catchment_timeseries/NALBACH/precipitation.nc
+data/catchment_timeseries/NALBACH/radiation.nc
+data/catchment_timeseries/NALBACH/temperature.nc
+data/catchment_timeseries/NAUHEIM/ndvi.nc
+data/catchment_timeseries/NAUHEIM/precipitation.nc
+data/catchment_timeseries/NAUHEIM/radiation.nc
+data/catchment_timeseries/NAUHEIM/temperature.nc
+data/catchment_timeseries/NETTEGUT/ndvi.nc
+data/catchment_timeseries/NETTEGUT/precipitation.nc
+data/catchment_timeseries/NETTEGUT/radiation.nc
+data/catchment_timeseries/NETTEGUT/temperature.nc
+data/catchment_timeseries/NEUENSTADT/ndvi.nc
+data/catchment_timeseries/NEUENSTADT/precipitation.nc
+data/catchment_timeseries/NEUENSTADT/radiation.nc
+data/catchment_timeseries/NEUENSTADT/temperature.nc
+data/catchment_timeseries/NEUSTADT/ndvi.nc
+data/catchment_timeseries/NEUSTADT/precipitation.nc
+data/catchment_timeseries/NEUSTADT/radiation.nc
+data/catchment_timeseries/NEUSTADT/temperature.nc
+data/catchment_timeseries/NEUSTADT WEINSTRASSE/ndvi.nc
+data/catchment_timeseries/NEUSTADT WEINSTRASSE/precipitation.nc
+data/catchment_timeseries/NEUSTADT WEINSTRASSE/radiation.nc
+data/catchment_timeseries/NEUSTADT WEINSTRASSE/temperature.nc
+data/catchment_timeseries/NIEDALTDORF/ndvi.nc
+data/catchment_timeseries/NIEDALTDORF/precipitation.nc
+data/catchment_timeseries/NIEDALTDORF/radiation.nc
+data/catchment_timeseries/NIEDALTDORF/temperature.nc
+data/catchment_timeseries/NIEDERKIRCH/ndvi.nc
+data/catchment_timeseries/NIEDERKIRCH/precipitation.nc
+data/catchment_timeseries/NIEDERKIRCH/radiation.nc
+data/catchment_timeseries/NIEDERKIRCH/temperature.nc
+data/catchment_timeseries/NIEDERTREBRA/ndvi.nc
+data/catchment_timeseries/NIEDERTREBRA/precipitation.nc
+data/catchment_timeseries/NIEDERTREBRA/radiation.nc
+data/catchment_timeseries/NIEDERTREBRA/temperature.nc
+data/catchment_timeseries/NORDHAUSEN/ndvi.nc
+data/catchment_timeseries/NORDHAUSEN/precipitation.nc
+data/catchment_timeseries/NORDHAUSEN/radiation.nc
+data/catchment_timeseries/NORDHAUSEN/temperature.nc
+data/catchment_timeseries/OBERLAUCHRINGEN/ndvi.nc
+data/catchment_timeseries/OBERLAUCHRINGEN/precipitation.nc
+data/catchment_timeseries/OBERLAUCHRINGEN/radiation.nc
+data/catchment_timeseries/OBERLAUCHRINGEN/temperature.nc
+data/catchment_timeseries/OPPENWEILER/ndvi.nc
+data/catchment_timeseries/OPPENWEILER/precipitation.nc
+data/catchment_timeseries/OPPENWEILER/radiation.nc
+data/catchment_timeseries/OPPENWEILER/temperature.nc
+data/catchment_timeseries/PARTENKIRCHEN/ndvi.nc
+data/catchment_timeseries/PARTENKIRCHEN/precipitation.nc
+data/catchment_timeseries/PARTENKIRCHEN/radiation.nc
+data/catchment_timeseries/PARTENKIRCHEN/temperature.nc
+data/catchment_timeseries/PETTSTADT/ndvi.nc
+data/catchment_timeseries/PETTSTADT/precipitation.nc
+data/catchment_timeseries/PETTSTADT/radiation.nc
+data/catchment_timeseries/PETTSTADT/temperature.nc
+data/catchment_timeseries/PFAFFENHOFEN/ndvi.nc
+data/catchment_timeseries/PFAFFENHOFEN/precipitation.nc
+data/catchment_timeseries/PFAFFENHOFEN/radiation.nc
+data/catchment_timeseries/PFAFFENHOFEN/temperature.nc
+data/catchment_timeseries/PFELLING/ndvi.nc
+data/catchment_timeseries/PFELLING/precipitation.nc
+data/catchment_timeseries/PFELLING/radiation.nc
+data/catchment_timeseries/PFELLING/temperature.nc
+data/catchment_timeseries/PFORZHEIM/ndvi.nc
+data/catchment_timeseries/PFORZHEIM/precipitation.nc
+data/catchment_timeseries/PFORZHEIM/radiation.nc
+data/catchment_timeseries/PFORZHEIM/temperature.nc
+data/catchment_timeseries/PORSCHDORF 1/ndvi.nc
+data/catchment_timeseries/PORSCHDORF 1/precipitation.nc
+data/catchment_timeseries/PORSCHDORF 1/radiation.nc
+data/catchment_timeseries/PORSCHDORF 1/temperature.nc
+data/catchment_timeseries/PREETZ/ndvi.nc
+data/catchment_timeseries/PREETZ/precipitation.nc
+data/catchment_timeseries/PREETZ/radiation.nc
+data/catchment_timeseries/PREETZ/temperature.nc
+data/catchment_timeseries/RAMSBACH/ndvi.nc
+data/catchment_timeseries/RAMSBACH/precipitation.nc
+data/catchment_timeseries/RAMSBACH/radiation.nc
+data/catchment_timeseries/RAMSBACH/temperature.nc
+data/catchment_timeseries/RANGENDINGEN/ndvi.nc
+data/catchment_timeseries/RANGENDINGEN/precipitation.nc
+data/catchment_timeseries/RANGENDINGEN/radiation.nc
+data/catchment_timeseries/RANGENDINGEN/temperature.nc
+data/catchment_timeseries/RATHENOW UP/ndvi.nc
+data/catchment_timeseries/RATHENOW UP/precipitation.nc
+data/catchment_timeseries/RATHENOW UP/radiation.nc
+data/catchment_timeseries/RATHENOW UP/temperature.nc
+data/catchment_timeseries/REINHEIM/ndvi.nc
+data/catchment_timeseries/REINHEIM/precipitation.nc
+data/catchment_timeseries/REINHEIM/radiation.nc
+data/catchment_timeseries/REINHEIM/temperature.nc
+data/catchment_timeseries/RETHEM/ndvi.nc
+data/catchment_timeseries/RETHEM/precipitation.nc
+data/catchment_timeseries/RETHEM/radiation.nc
+data/catchment_timeseries/RETHEM/temperature.nc
+data/catchment_timeseries/RIEDERICH/ndvi.nc
+data/catchment_timeseries/RIEDERICH/precipitation.nc
+data/catchment_timeseries/RIEDERICH/radiation.nc
+data/catchment_timeseries/RIEDERICH/temperature.nc
+data/catchment_timeseries/ROCKENAU SKA/ndvi.nc
+data/catchment_timeseries/ROCKENAU SKA/precipitation.nc
+data/catchment_timeseries/ROCKENAU SKA/radiation.nc
+data/catchment_timeseries/ROCKENAU SKA/temperature.nc
+data/catchment_timeseries/ROTTWEIL/ndvi.nc
+data/catchment_timeseries/ROTTWEIL/precipitation.nc
+data/catchment_timeseries/ROTTWEIL/radiation.nc
+data/catchment_timeseries/ROTTWEIL/temperature.nc
+data/catchment_timeseries/SCHERMBECK 1/ndvi.nc
+data/catchment_timeseries/SCHERMBECK 1/precipitation.nc
+data/catchment_timeseries/SCHERMBECK 1/radiation.nc
+data/catchment_timeseries/SCHERMBECK 1/temperature.nc
+data/catchment_timeseries/SCHMITTLOTHEIM/ndvi.nc
+data/catchment_timeseries/SCHMITTLOTHEIM/precipitation.nc
+data/catchment_timeseries/SCHMITTLOTHEIM/radiation.nc
+data/catchment_timeseries/SCHMITTLOTHEIM/temperature.nc
+data/catchment_timeseries/SCHWABELWEIS/ndvi.nc
+data/catchment_timeseries/SCHWABELWEIS/precipitation.nc
+data/catchment_timeseries/SCHWABELWEIS/radiation.nc
+data/catchment_timeseries/SCHWABELWEIS/temperature.nc
+data/catchment_timeseries/SCHWABSBERG/ndvi.nc
+data/catchment_timeseries/SCHWABSBERG/precipitation.nc
+data/catchment_timeseries/SCHWABSBERG/radiation.nc
+data/catchment_timeseries/SCHWABSBERG/temperature.nc
+data/catchment_timeseries/SIEBELDINGEN/ndvi.nc
+data/catchment_timeseries/SIEBELDINGEN/precipitation.nc
+data/catchment_timeseries/SIEBELDINGEN/radiation.nc
+data/catchment_timeseries/SIEBELDINGEN/temperature.nc
+data/catchment_timeseries/SOHOLM/ndvi.nc
+data/catchment_timeseries/SOHOLM/precipitation.nc
+data/catchment_timeseries/SOHOLM/radiation.nc
+data/catchment_timeseries/SOHOLM/temperature.nc
+data/catchment_timeseries/SPREMBERG/ndvi.nc
+data/catchment_timeseries/SPREMBERG/precipitation.nc
+data/catchment_timeseries/SPREMBERG/radiation.nc
+data/catchment_timeseries/SPREMBERG/temperature.nc
+data/catchment_timeseries/STAH/ndvi.nc
+data/catchment_timeseries/STAH/precipitation.nc
+data/catchment_timeseries/STAH/radiation.nc
+data/catchment_timeseries/STAH/temperature.nc
+data/catchment_timeseries/STEIN/ndvi.nc
+data/catchment_timeseries/STEIN/precipitation.nc
+data/catchment_timeseries/STEIN/radiation.nc
+data/catchment_timeseries/STEIN/temperature.nc
+data/catchment_timeseries/STRECKEWALDE/ndvi.nc
+data/catchment_timeseries/STRECKEWALDE/precipitation.nc
+data/catchment_timeseries/STRECKEWALDE/radiation.nc
+data/catchment_timeseries/STRECKEWALDE/temperature.nc
+data/catchment_timeseries/TAFERLRUCK/ndvi.nc
+data/catchment_timeseries/TAFERLRUCK/precipitation.nc
+data/catchment_timeseries/TAFERLRUCK/radiation.nc
+data/catchment_timeseries/TAFERLRUCK/temperature.nc
+data/catchment_timeseries/TAUBERBISCHOFSHEIM/ndvi.nc
+data/catchment_timeseries/TAUBERBISCHOFSHEIM/precipitation.nc
+data/catchment_timeseries/TAUBERBISCHOFSHEIM/radiation.nc
+data/catchment_timeseries/TAUBERBISCHOFSHEIM/temperature.nc
+data/catchment_timeseries/TAUCHRITZ/ndvi.nc
+data/catchment_timeseries/TAUCHRITZ/precipitation.nc
+data/catchment_timeseries/TAUCHRITZ/radiation.nc
+data/catchment_timeseries/TAUCHRITZ/temperature.nc
+data/catchment_timeseries/TREIA/ndvi.nc
+data/catchment_timeseries/TREIA/precipitation.nc
+data/catchment_timeseries/TREIA/radiation.nc
+data/catchment_timeseries/TREIA/temperature.nc
+data/catchment_timeseries/UBSTADT/ndvi.nc
+data/catchment_timeseries/UBSTADT/precipitation.nc
+data/catchment_timeseries/UBSTADT/radiation.nc
+data/catchment_timeseries/UBSTADT/temperature.nc
+data/catchment_timeseries/UHLDINGEN/ndvi.nc
+data/catchment_timeseries/UHLDINGEN/precipitation.nc
+data/catchment_timeseries/UHLDINGEN/radiation.nc
+data/catchment_timeseries/UHLDINGEN/temperature.nc
+data/catchment_timeseries/UNTERGRIESHEIM/ndvi.nc
+data/catchment_timeseries/UNTERGRIESHEIM/precipitation.nc
+data/catchment_timeseries/UNTERGRIESHEIM/radiation.nc
+data/catchment_timeseries/UNTERGRIESHEIM/temperature.nc
+data/catchment_timeseries/UNTERJETTENBERG/ndvi.nc
+data/catchment_timeseries/UNTERJETTENBERG/precipitation.nc
+data/catchment_timeseries/UNTERJETTENBERG/radiation.nc
+data/catchment_timeseries/UNTERJETTENBERG/temperature.nc
+data/catchment_timeseries/UNTERLANGENSTADT/ndvi.nc
+data/catchment_timeseries/UNTERLANGENSTADT/precipitation.nc
+data/catchment_timeseries/UNTERLANGENSTADT/radiation.nc
+data/catchment_timeseries/UNTERLANGENSTADT/temperature.nc
+data/catchment_timeseries/UNTERSCHMEIEN/ndvi.nc
+data/catchment_timeseries/UNTERSCHMEIEN/precipitation.nc
+data/catchment_timeseries/UNTERSCHMEIEN/radiation.nc
+data/catchment_timeseries/UNTERSCHMEIEN/temperature.nc
+data/catchment_timeseries/VILLIGST/ndvi.nc
+data/catchment_timeseries/VILLIGST/precipitation.nc
+data/catchment_timeseries/VILLIGST/radiation.nc
+data/catchment_timeseries/VILLIGST/temperature.nc
+data/catchment_timeseries/VLOTHO/ndvi.nc
+data/catchment_timeseries/VLOTHO/precipitation.nc
+data/catchment_timeseries/VLOTHO/radiation.nc
+data/catchment_timeseries/VLOTHO/temperature.nc
+data/catchment_timeseries/WAHMBECK/ndvi.nc
+data/catchment_timeseries/WAHMBECK/precipitation.nc
+data/catchment_timeseries/WAHMBECK/radiation.nc
+data/catchment_timeseries/WAHMBECK/temperature.nc
+data/catchment_timeseries/WASSERTHALEBEN/ndvi.nc
+data/catchment_timeseries/WASSERTHALEBEN/precipitation.nc
+data/catchment_timeseries/WASSERTHALEBEN/radiation.nc
+data/catchment_timeseries/WASSERTHALEBEN/temperature.nc
+data/catchment_timeseries/WECHSELBURG 1/ndvi.nc
+data/catchment_timeseries/WECHSELBURG 1/precipitation.nc
+data/catchment_timeseries/WECHSELBURG 1/radiation.nc
+data/catchment_timeseries/WECHSELBURG 1/temperature.nc
+data/catchment_timeseries/WEILERSWIST/ndvi.nc
+data/catchment_timeseries/WEILERSWIST/precipitation.nc
+data/catchment_timeseries/WEILERSWIST/radiation.nc
+data/catchment_timeseries/WEILERSWIST/temperature.nc
+data/catchment_timeseries/WENDLINGEN (KLA)/ndvi.nc
+data/catchment_timeseries/WENDLINGEN (KLA)/precipitation.nc
+data/catchment_timeseries/WENDLINGEN (KLA)/radiation.nc
+data/catchment_timeseries/WENDLINGEN (KLA)/temperature.nc
+data/catchment_timeseries/WESTERAKEBY/ndvi.nc
+data/catchment_timeseries/WESTERAKEBY/precipitation.nc
+data/catchment_timeseries/WESTERAKEBY/radiation.nc
+data/catchment_timeseries/WESTERAKEBY/temperature.nc
+data/catchment_timeseries/ZELL/ndvi.nc
+data/catchment_timeseries/ZELL/precipitation.nc
+data/catchment_timeseries/ZELL/radiation.nc
+data/catchment_timeseries/ZELL/temperature.nc
+data/catchment_timeseries/ZWICKAU-POELBITZ/ndvi.nc
+data/catchment_timeseries/ZWICKAU-POELBITZ/precipitation.nc
+data/catchment_timeseries/ZWICKAU-POELBITZ/radiation.nc
+data/catchment_timeseries/ZWICKAU-POELBITZ/temperature.nc
